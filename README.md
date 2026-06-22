@@ -1,4 +1,4 @@
-# deepfake-detection-Cybercrime
+# Deepfake-detection-Cybercrime
 # DEEPFAKE1: EfficientNet-B4 on FaceForensics++
 
 ## Overview
