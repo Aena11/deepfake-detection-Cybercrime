@@ -38,21 +38,6 @@ FaceForensics++ is a large-scale face manipulation benchmark containing:
 
 > **Note:** The dataset is NOT stored in this repository. It is kept locally and shared via the team's shared storage. Use the FaceForensics download script to obtain it.
 
-## Directory Structure
-
-```
-src/team2/
-├── README.md                        # This file
-├── efficientnet_deepfake.ipynb      # Main notebook (training, evaluation, results)
-├── utils/
-│   ├── dataset.py                   # DeepfakeDataset class and data loading
-│   ├── transforms.py                # Data augmentation pipeline
-│   └── metrics.py                   # Evaluation metrics (accuracy, AUC, F1, MiFID)
-└── results/
-    ├── results.csv                  # Cross-validation results
-    └── plots/                       # Visualizations and comparison charts
-```
-
 ## Setup
 
 ### Dependencies
