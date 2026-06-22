@@ -1,0 +1,41 @@
+Using device: cuda
+
+Loading model...
+Model loaded!
+
+==================================================
+Testing on: FF++
+  Real: 15000 | Fake: 15000 | Total: 30000
+  Accuracy : 0.6962
+  AUC-ROC  : 0.7656
+
+==================================================
+Testing on: CelebDF_V2
+  Real: 5036 | Fake: 5067 | Total: 10103
+  Accuracy : 0.5357
+  AUC-ROC  : 0.5673
+
+==================================================
+Testing on: Sarra_Dataset
+  Real: 478 | Fake: 468 | Total: 946
+  Accuracy : 0.5803
+  AUC-ROC  : 0.6398
+
+==================================================
+Testing on: CIFAKE
+  Real: 10000 | Fake: 10000 | Total: 20000
+  Accuracy : 0.5212
+  AUC-ROC  : 0.5228
+
+==================================================
+FINAL SUMMARY - EfficientNet-B4 Cross-Dataset Results
+==================================================
+Dataset                Accuracy    AUC-ROC
+----------------------------------------
+FF++                     0.6962     0.7656
+CelebDF_V2               0.5357     0.5673
+Sarra_Dataset            0.5803     0.6398
+CIFAKE                   0.5212     0.5228
+
+All results and plots saved!
+DONE!
